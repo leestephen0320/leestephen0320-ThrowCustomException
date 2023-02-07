@@ -16,7 +16,7 @@ public class CustomExceptionThrower {
      * hand, are using a try/catch block to catch the exception thrown by this method.
      */
     public void throwCustomException() throws CustomException{
-
+        System.out.println(1/0);
     }
 
 }
